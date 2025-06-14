@@ -1,7 +1,6 @@
 import React, { useRef, useEffect } from 'react';
 import { Typography, Box } from '@mui/material';
 import Navbar from '../components/NavBar';
-import SocialIcons from '../components/SocialIcons';
 import ProjectSection from '../components/ProjectSection';
 
 export default function Home() {
@@ -93,7 +92,7 @@ export default function Home() {
 
   return (
     <>
-     <SocialIcons/>
+     
       <Navbar />
       <div
         style={{
