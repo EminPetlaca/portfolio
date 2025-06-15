@@ -34,6 +34,4 @@ This site showcases who I am, what I do, and the projects I’ve worked on.
 | Typewriter Effect | Typing animation introduction    |
 
 ---
-Framer Motion (optional)	Button/scroll animations
-Typewriter Effect	Typing introduction
 
