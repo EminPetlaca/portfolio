@@ -1,10 +1,9 @@
 import React, { useState, useRef, useEffect } from "react";
 import { Typography, Box } from "@mui/material";
 import { Typewriter } from "react-simple-typewriter";
-import { motion } from "framer-motion";
 import Navbar from "../components/NavBar";
 import ProjectSection from "../components/ProjectSection";
-import "../index.css"; // Ensure @keyframes gradientShift is defined here
+import "../index.css"; // Ensure gradientShift is defined here
 
 export default function Home() {
   const canvasRef = useRef(null);
@@ -91,6 +90,13 @@ export default function Home() {
     };
   }, []);
 
+  const scrollToProjects = () => {
+    const el = document.getElementById("projects");
+    if (el) {
+      el.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
   return (
     <>
       <Navbar />
@@ -162,35 +168,62 @@ export default function Home() {
               "Hi, I'm Emin"
             )}
           </Typography>
+
           <Typography variant="h5" sx={{ fontWeight: 200, mb: 4 }}>
             I build clean, modern web experiences.
           </Typography>
 
-          <motion.button
-            whileHover={{
-              scale: 1.08,
-              boxShadow: "0px 8px 20px rgba(255, 255, 255, 0.2)",
-            }}
-            whileTap={{ scale: 0.95 }}
+          <button
             style={{
-              backgroundColor: "#ffffff10",
-              color: "#fff",
-              border: "1px solid #fff",
+              backgroundColor: "rgba(255, 255, 255, 0.05)",
+              color: "#ffffff",
+              border: "1px solid rgba(255, 255, 255, 0.4)",
               borderRadius: "999px",
-              padding: "12px 32px",
-              fontSize: "1rem",
+              padding: "14px 36px",
+              fontSize: "1.05rem",
               fontWeight: 500,
+              letterSpacing: "0.5px",
               cursor: "pointer",
-              transition: "all 0.3s ease-in-out",
-              backdropFilter: "blur(10px)",
+              transition: "all 0.3s ease",
+              backdropFilter: "blur(12px)",
+              WebkitBackdropFilter: "blur(12px)",
+              textTransform: "uppercase",
+              boxShadow: "0 4px 16px rgba(255, 255, 255, 0.05)",
             }}
             onClick={() => (window.location.href = "#contact")}
           >
             Hire Me
-          </motion.button>
+          </button>
         </Box>
+
+        {/* ↓ Arrow at bottom */}
+        <div
+          onClick={scrollToProjects}
+          style={{
+            position: "absolute",
+            bottom: "32px",
+            left: "50%",
+            transform: "translateX(-50%)",
+            cursor: "pointer",
+            zIndex: 10,
+          }}
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="32"
+            height="32"
+            fill="white"
+            viewBox="0 0 24 24"
+          >
+            <path d="M12 21c-.3 0-.5-.1-.7-.3l-10-10 1.4-1.4L12 18.6 21.3 9.3l1.4 1.4-10 10c-.2.2-.4.3-.7.3z" />
+          </svg>
+        </div>
       </div>
-      <ProjectSection />
+
+      {/* Projects Section */}
+      <div id="projects">
+        <ProjectSection />
+      </div>
     </>
   );
 }
