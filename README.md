@@ -1,28 +1,39 @@
-📁 Personal Portfolio – Emin
-Welcome to my personal portfolio website built with React.js, Material UI, and Framer Motion. This site showcases who I am, what I do, and the projects I’ve worked on.
+# 📁 Personal Portfolio – Emin
 
-📸 Preview
+Welcome to my personal portfolio website built with **React.js**, **Material UI**, and **Framer Motion**.  
+This site showcases who I am, what I do, and the projects I’ve worked on.
 
-🚀 Features
-✨ Modern UI with animated typing and dynamic gradient text
+---
 
-💡 Interactive canvas background using <canvas>
+## 📸 Preview
 
-📱 Responsive design (mobile & desktop)
+> _Coming soon: Insert a screenshot or live demo link here._
 
-🧩 Modular structure with reusable components
+---
 
-🔗 Smooth scroll to project section via arrow
+## 🚀 Features
 
-🖼️ Project showcase section
+- ✨ **Modern UI** with animated typing and dynamic gradient text
+- 💡 **Interactive canvas background** using native `<canvas>`
+- 📱 **Responsive design** (mobile & desktop)
+- 🧩 **Modular structure** with reusable components
+- 🔗 **Smooth scroll** to project section via arrow button
+- 🖼️ **Project showcase** section
+- 🧠 **Built with React, MUI, Typewriter, and Framer Motion** (optional)
 
-🧠 Built with React, MUI, Typewriter, and Framer Motion (optional)
+---
 
-🛠️ Tech Stack
-Tech	Use Case
-React	Frontend framework
-Material UI	Styling and layout
-Canvas API	Interactive animated background
+## 🛠️ Tech Stack
+
+| Tech              | Use Case                         |
+|-------------------|----------------------------------|
+| React             | Frontend framework               |
+| Material UI       | Styling and layout system        |
+| Canvas API        | Animated background with canvas  |
+| Framer Motion *(optional)* | Button/scroll animations        |
+| Typewriter Effect | Typing animation introduction    |
+
+---
 Framer Motion (optional)	Button/scroll animations
 Typewriter Effect	Typing introduction
 
