@@ -1,5 +1,5 @@
 📁 Personal Portfolio – Emin
-Welcome to my personal portfolio website built with React.js, Material UI, and Framer Motion (optional). This site showcases who I am, what I do, and the projects I’ve worked on.
+Welcome to my personal portfolio website built with React.js, Material UI, and Framer Motion. This site showcases who I am, what I do, and the projects I’ve worked on.
 
 📸 Preview
 
