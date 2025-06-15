@@ -7,7 +7,7 @@ This site showcases who I am, what I do, and the projects I’ve worked on.
 
 ## 📸 Preview
 
-> _Coming soon: Insert a screenshot or live demo link here._
+![Portfolio Preview](../frontend/assets/portfolio-screen.png)
 
 ---
 
