@@ -4,6 +4,7 @@ import { Typewriter } from "react-simple-typewriter";
 import Navbar from "../components/NavBar";
 import ProjectSection from "../components/ProjectSection";
 import "../index.css"; // Ensure gradientShift is defined here
+import Technologies from "../components/Technologies";
 
 export default function Home() {
   const canvasRef = useRef(null);
@@ -224,6 +225,7 @@ export default function Home() {
       <div id="projects">
         <ProjectSection />
       </div>
+      <Technologies/>
     </>
   );
 }
