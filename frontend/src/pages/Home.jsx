@@ -5,6 +5,7 @@ import Navbar from "../components/NavBar";
 import ProjectSection from "../components/ProjectSection";
 import "../index.css"; // Ensure gradientShift is defined here
 import Technologies from "../components/Technologies";
+import About from "../components/About";
 
 export default function Home() {
   const canvasRef = useRef(null);
@@ -222,10 +223,11 @@ export default function Home() {
       </div>
 
       {/* Projects Section */}
-      <div id="projects">
+      <div id="projects" style={{ scrollMarginTop: "50px" }}>
         <ProjectSection />
       </div>
-      <Technologies/>
+      <Technologies />
+      <About />
     </>
   );
 }
