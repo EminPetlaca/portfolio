@@ -11,6 +11,7 @@ export default function About() {
         color: "#fff",
         fontFamily: '"Poppins", sans-serif',
         borderTop: "2px solid #ffffff22",
+        borderBottom: "2px solid #ffffff22", // <-- bolder & slightly more opaque
       }}
     >
       <Typography

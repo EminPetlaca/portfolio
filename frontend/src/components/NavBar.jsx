@@ -142,7 +142,7 @@ export default function Navbar() {
                       disableRipple
                       sx={{
                         color: isActive ? '#00f6ff' : '#fff',
-                        fontWeight: 400,
+                        fontWeight: 600,
                         fontSize: '1rem',
                         textTransform: 'none',
                         px: 2.5,

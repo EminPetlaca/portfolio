@@ -42,7 +42,8 @@ export default function ProjectSection() {
         backgroundColor: "#0e0e1a",
         color: "#fff",
         fontFamily: '"Poppins", sans-serif',
-        borderTop: "2px solid #ffffff22", // subtle white border
+        borderTop: "3px solid #ffffff22",
+        borderBottom: "2px solid #ffffff22", // subtle white border
       }}
     >
       <Typography
