@@ -7,6 +7,7 @@ import "../index.css"; // Ensure gradientShift is defined here
 import Technologies from "../components/Technologies";
 import About from "../components/About";
 import ContactForm from "../components/Form";
+import Footer from "../components/Footer";
 
 export default function Home() {
   const canvasRef = useRef(null);
@@ -230,6 +231,7 @@ export default function Home() {
       <Technologies />
       <About />
       <ContactForm/>
+      <Footer/>
     </>
   );
 }
