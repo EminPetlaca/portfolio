@@ -11,7 +11,7 @@ export default function Technologies() {
   return (
     <Box
       sx={{
-        py: 6,
+        py: 10, // Increased vertical padding
         borderTop: "2px solid #ffffff22",
         borderBottom: "2px solid #ffffff22",
         backgroundColor: "transparent",
@@ -20,12 +20,18 @@ export default function Technologies() {
       }}
     >
       <Typography
-        variant="h5"
+        variant="h4" // Changed from h5 to h4 for larger size
         sx={{
           textAlign: "center",
-          mb: 3,
-          fontWeight: 600,
+          mb: 6, // Increased bottom margin
+          mt: 2,
+          fontWeight: "bold",
           letterSpacing: 1,
+          background: "linear-gradient(270deg, #00DBDE, #FC00FF, #00DBDE)",
+          backgroundSize: "600% 600%",
+          WebkitBackgroundClip: "text",
+          WebkitTextFillColor: "transparent",
+          animation: "gradientShift 20s ease infinite",
         }}
       >
         Technologies I Use

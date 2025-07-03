@@ -6,6 +6,7 @@ import ProjectSection from "../components/ProjectSection";
 import "../index.css"; // Ensure gradientShift is defined here
 import Technologies from "../components/Technologies";
 import About from "../components/About";
+import ContactForm from "../components/Form";
 
 export default function Home() {
   const canvasRef = useRef(null);
@@ -228,6 +229,7 @@ export default function Home() {
       </div>
       <Technologies />
       <About />
+      <ContactForm/>
     </>
   );
 }
